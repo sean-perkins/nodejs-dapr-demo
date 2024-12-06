@@ -4,6 +4,12 @@ This is a demo application showcasing Dapr's capabilities with Node.js. It inclu
 
 ---
 
+## Serving Node.js App with Dapr
+
+```bash
+dapr run --app-id node-app --app-port 3000 --dapr-http-port 3500 --components-path ./components node app.js
+```
+
 ## Endpoints and Usage
 
 ### 1. Health Check
